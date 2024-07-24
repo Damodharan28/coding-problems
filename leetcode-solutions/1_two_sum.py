@@ -14,7 +14,7 @@ class Solution(object):
         # If no such pair is found, return an empty list
         return []
 
-sol = Solution()
+solution = Solution()
 nums = [2, 7, 11, 15]
 target = 9
-sol.twoSum(nums, target)
+solution.twoSum(nums, target)
