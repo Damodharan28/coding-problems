@@ -13,8 +13,3 @@ class Solution(object):
         
         # If no such pair is found, return an empty list
         return []
-
-solution = Solution()
-nums = [2, 7, 11, 15]
-target = 9
-solution.twoSum(nums, target)
