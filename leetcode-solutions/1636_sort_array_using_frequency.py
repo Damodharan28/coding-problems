@@ -10,7 +10,3 @@ class Solution:
         # Sort the numbers based on frequency and value
         sorted_nums = sorted(nums, key=lambda x: (freq[x + 100], x), reverse=True)
         return sorted_nums
-
-solution = Solution()
-nums = [1,1,2,2,2,3]
-solution.frequencySort(nums)
