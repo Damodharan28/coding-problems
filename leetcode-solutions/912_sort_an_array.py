@@ -58,7 +58,3 @@ class Solution(object):
         # Call the mergesort function on the entire array
         mergesort(nums, 0, len(nums) - 1)
         return nums
-
-solution = Solution()
-nums = [5, 2, 3, 1]
-print(solution.sortArray(nums))
