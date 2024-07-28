@@ -14,9 +14,3 @@ class Solution(object):
         # Sort the nums array based on the mapped values
         nums.sort(key=map_value)
         return nums
-
-
-solution = Solution()
-mapping = [8, 9, 4, 0, 2, 1, 3, 5, 7, 6]
-nums = [991, 338, 38]
-print(solution.sortJumbled(mapping, nums))
