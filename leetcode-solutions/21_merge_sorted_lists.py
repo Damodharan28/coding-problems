@@ -1,10 +1,7 @@
 class Solution:
     def mergeTwoLists(self, list1, list2):
-        # If list1 is empty, return list2 as the merged result
         if not list1:
             return list2
-        
-        # If list2 is empty, return list1 as the merged result
         if not list2:
             return list1
         
