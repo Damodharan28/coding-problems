@@ -1,15 +1,13 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        # Get the number of elements in nums
-        size = len(nums)
-        
-        # Loop through each element in nums except the last one
-        for i in range(size - 1):
-            # For each element nums[i], loop through the elements that come after it
-            for j in range(i + 1, size):
-                # Check if the sum of nums[i] and nums[j] equals the target
-                if nums[i] + nums[j] == target:
-                    return [i, j]
-        
-        # If no such pair is found, return an empty list
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashmap = {}
+
+        for idx,value in enumerate(nums):
+            diff = target - value
+
+            if diff in hashmap:
+                return [hashmap[diff],idx]
+
+            hashmap[value] = idx
+
         return []
