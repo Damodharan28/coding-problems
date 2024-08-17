@@ -4,7 +4,7 @@ Welcome to my LeetCode coding solutions repository! 🎉 This repository contain
 
 ## Repository Structure
 
-- **`/leetcode-solutions`**: Contains directories for different LeetCode problems.
+- **`/leetcode-solutions`**: Contains different LeetCode problems.
   - Each problem directory includes:
     - Python solution for the problem.
 
