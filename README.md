@@ -6,7 +6,7 @@ Welcome to my LeetCode coding solutions repository! 🎉 This repository contain
 
 - **`/leetcode-solutions`**: Contains directories for different LeetCode problems.
   - Each problem directory includes:
-    - **`solution.py`**: Python solution for the problem.
+    - Python solution for the problem.
 
 ## LeetCode Profile
 
